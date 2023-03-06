@@ -1,0 +1,79 @@
+html {
+	background-image:url("Kepek/rainbow6-siege-background.jpg")
+}
+
+body{
+        background-color:lightgrey;
+        width:80%;
+        max-width:1280px;
+        min-width:500px;
+        padding:10px 50px 15px; 
+        margin:20px auto;
+        font-size: xx-large;
+        font-family: 'Times New Roman', Times, sans-serif;
+}
+
+header, footer {
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: xx-large;
+}
+
+h1, h2, h3, figure, section, div{
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+  }
+
+aside {
+    background-color:darkgray;
+    padding: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+table {
+    width: 75%;
+    background-color: white;
+    border:solid black 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+td{
+    width: 25%;
+    padding: 5px;
+    text-align:center;
+}
+
+table#szabaly{
+    width: 70%;
+    background-color: transparent;
+}
+
+div#fellink{
+    padding-top: 10px;
+}
+
+fieldset{
+    padding: 10px;
+    margin: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-container > div {
+    width: 550px;
+    margin: 15px;
+    line-height: normal;
+}
+
+ul {
+    text-align: justify;
+}
